@@ -8,6 +8,5 @@ if __name__ == "__main__":
         print("Server Port: " + sys.argv[2])
         print("Auth Token: " + sys.argv[3])
         start(sys.argv[1], sys.argv[2], sys.argv[3])
-        #print(ai.sayHello(demoMap))
     else:
         print("need 3 arguments")
